@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Feed | Instajeju</title>
+  <title>Edit profile | Instajeju</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         rel="stylesheet" />
 </head>
@@ -20,59 +20,76 @@
   </nav>
 
 
-<main class="edit">
-  <header class="profile__header">
-      <img src="images/avatar_Nicolas.jpg"/>
-      <div>
-        <h3 class="edit__name">serranoarevalo</h3>
-      </div>
-  </header>
-
-  <form class="edit__info">
-    <div class="edit__name">
-      <aside class="edit__name-text"><span>name</span></aside>
-      <input type="text" name="edit__name-input" value="nicolas"/>
-    </div>
-    <div class="edit__username">
-      <aside class="edit__username-text">Username</aside>
-      <input type="text" name="edit__username-input" value="serranoarevalo"/>
-    </div>
-    <div class="edit__website">
-      <aside class="edit__website-text">Website</aside>
-      <input type="text" name="edit__website-input" value="http://serranoarevalo.com"/>
-    </div>
-    <div class="edit__bio">
-      <aside class="edit__bio-text">Bio</aside>
-      <textarea placeholder=""
-                class="edit__bio-input">Traveling the world forever. Previously: Bagan, Myanmar Now: Jeju, South Korea 🇰🇷 Next: ????
-      </textarea>
+  <main class="edit-profile">
+    <div class="edit-profile__name">
+      <img src="images/avatar.jpg"
+           class="edit-profile__thumb" />
+      <h3 class="edit-profile__username">serranoarevalo</h3>
     </div>
 
-    <div class="private__info">private infomation</div>
+    <ul class="edit-profile__list">
+          <form action="profile.html"
+                method="get">
+            <li class="edit-profile__list-item">
+              <label for="name"
+                     class="edit-profile__type">Name</label>
+              <input id="name"
+                     type="text"></li>
 
-    <div class="edit__email">
-      <aside class="edit__email-text">Email</aside>
-      <input type="text" name="edit__email-input" value="itnico.las.me@gamil.com"/>
-    </div>
-    <div class="edit__phone">
-      <aside class="edit__phone-text">Phone Number</aside>
-      <input type="text" name="edit__phone-input" value="+82 010 000 0000"/>
-    </div>
-    <div class="edit__gender">
-      <aside class="edit__gender-text">Gender</aside>
-      <select name="edit__gender-select">
-        <option value="gender_select-male  " selected>male</option>
-        <option value="gender_select-female" >female</option>
-        <option value="gender_select-not   " >not selected</option>
-      </select>
-    </div>
-    <div class="edit__suggest">
-      <aside class="edit__suggest-text">Similar Account Suggestions</aside>
-      <input type="checkbox" name="edit__suggest-input" value="suggest" checked/>
-      <label for ="suggest">Include your account when recommending similar accounts people might want to follow.</label>
+            <li class="edit-profile__list-item">
+              <label for="username"
+                     class="edit-profile__type">Username</label>
+              <input id="username"
+                     type="text"
+                     value="serranoarevalo"
+                     required /></li>
 
-<div>
-  <button>submit</button>
+            <li class="edit-profile__list-item">
+              <label for="website"
+                     class="edit-profile__type">Website</label>
+              <input id="website"
+                     type="url"></li>
+
+            <li class="edit-profile__list-item">
+              <label for="bio"
+                     class="edit-profile__type">Bio</label>
+              <textarea id="bio"
+                        name="edit__bio"></textarea></li>
+
+            <li class="edit-profile__list-item">
+              <label for="email"
+                     class="edit-profile__type">Email</label>
+              <input id="email"
+                     type="email"
+                     required></li>
+
+            <li class="edit-profile__list-item">
+              <label for="phone-number"
+                     class="edit-profile__type">Phone Number</label>
+              <input id="phone-number"
+                     type="text"></li>
+
+            <li class="edit-profile__list-item">
+              <label for="gender"
+                     class="edit-profile__type">Gender</label>
+              <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="dont-know" selected>Not specified</option>
+              </select></li>
+
+            <li class="edit-profile__list-item">
+              <span class="edit-profile__type">Similar Account Suggestions</span>
+              <input type="checkbox"
+                     id="similar"
+                     name="subscribe"
+                     value="similar_accounts">
+              <label for="similar">Suggest Similar accounts to your user account</label>
+            </li>
+
+            <input type="submit"
+                          value="Submit">
+
 </div>
   </form>
 
