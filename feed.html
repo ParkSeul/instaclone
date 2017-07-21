@@ -20,39 +20,45 @@
   </nav>
 
 <main class="feed">
-  <div class="feed__header">
-    <img src="images/avatar.jpg" class="feed__header__user-img" />
-    <span class="feed__header__user-text">blackktaffooing</span>
-  </div>
-  <div class="feed__image">
-    <img src="images/feedPhoto.jpg" class="feed__image-image" />
-  </div>
-  <div class="feed__comment">
-    <div class="feed__commet__icon">
-      <i class="fa fa-heart-o  " class="feed_comment_icon-heart"></i>
-      <i class="fa fa-comment-o" class="feed_comment_icon-commnet"></i>
+  <div class="photo">
+    <header class="photo__header">
+      <img src="images/avatar.jpg"
+           class="photo__header__user-img" />
+      <span class="photo__header__user-text">blackktaffooing</span>
+    </header>
+
+    <img src="images/feedPhoto.jpg"
+         class="photo__image" />
+
+    <div class="photo__info">
+      <div class="photo__actions">
+        <i class="fa fa-heart-o  "
+           class="photo_comment_icon-heart"></i>
+        <i class="fa fa-comment-o"
+           class="photo_comment_icon-commnet"></i>
+      </div>
+      <span class="photo__likes">123 likes</span>
+      <ul class="photo__comments">
+        <li class="photo__comment"><span class="comment__author">user1</span> hellow1</li>
+        <li class="photo__comment"><span class="comment__author">user2</span> hellow2</li>
+        <li class="photo__comment"><span class="comment__author">user3</span> hellow3</li>
+        <li class="photo__comment"><span class="comment__author">user4</span> hellow4</li>
+        <li class="photo__comment"><span class="comment__author">user5</span> hellow5</li>
+      </ul>
+
+      <span class="photo__date">12 hours ago</span>
+      <!-- 댓글 입력창 -->
+      <div class="photo__add-comment">
+        <textarea placeholder="Add a comment..."
+                  class="photo__comment__comment-input"></textarea>
+        <i class="fa fa-ellipsis-h"></i>
+      </div>
+      <!-- 댓글 입력창 -->
     </div>
-    <div>
-      <span class="feed__comment_likes">123 likes</span>
-    </div>
-    <div class="feed__commnet__list">
-      <li class="feed_comment_list-item"><span Calss="comment__auther">user1</span> hellow1</li>
-      <li class="feed_comment_list-item"><span Calss="comment__auther">user2</span> hellow2</li>
-      <li class="feed_comment_list-item"><span Calss="comment__auther">user3</span> hellow3</li>
-      <li class="feed_comment_list-item"><span Calss="comment__auther">user4</span> hellow4</li>
-      <li class="feed_comment_list-item"><span Calss="comment__auther">user5</span> hellow5</li>
-    </div>
-    <div class="feed__comment__time">
-      <span class="feed__comment__time_text">12 HOURS AGO</span>
-    </div>
-    <!-- 댓글 입력창 -->
-    <div class="feed__comment__comment">
-      <textarea placeholder="Add a comment..." class="feed__comment__comment-input">  
-      </textarea>
-    </div>
-    <!-- 댓글 입력창 -->
   </div>
 </main>
+
+
 
 <footer class="footer">
   <!--  nav.footer__nav>ul.footer__list>li.footer__list-item*10>a.footer__link -->
