@@ -7,6 +7,7 @@
         href="images/favicon.ico">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
@@ -14,29 +15,33 @@
     <div class="login__column">
       <img src="images/phoneImage.png" />
     </div>
+
     <div class="login__column">
       <div class="login__box">
         <img src="images/logoLogin.png" class="login__logo" />
         <form action="feed.html" method="get">
-          <!--  // <form action="feed.html" method="post">  // post 로 바꾸면 연결된 링크에 user name . passwrod가 뜨지 않음-->
-          <input type="email" name="uesr" placeholder="Uesername" required/>
-          <input type="password" name="pass" placeholder="Password" requird />
-          <input type="submit" value="Log in" />
+          <!-- <form action="feed.html" method="post">  // post 로 바꾸면 연결된 링크에 user name . passwrod가 뜨지 않음-->
+          <input type="email"    name="uesr" placeholder="Uesername" required/>
+          <input type="password" name="pass" placeholder="Password"  required/>
+          <input type="submit"   value="Log in" />
           <!-- input type에는 name/color/date/checkbox 등 원하는 걸로 할 수 있다. -->
         </form>
+
         <span class="login__divider">or</span>
-        <a href="#" class="login__fb-link"><i class="fa fa-facebook-square" aria-hidden="true"></i>
-Log in with Facebook</a>
-        <a href="#" class="login__link login__link--small">Forgot password?</a>
+        <a href="#" class="login__fb-link">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          Log in with Facebook</a>
+        <a href="#" class="login__link login__link--small">
+          Forgot password?</a>
       </div>
-      <div class="login__box">
-        <!-- Complete here. -->
+
+      <div class="login__box"> <!-- Complete here. -->
         <span class="login__text">Don't have an account?</span>
         <a href="#" class="login__link">Sing up</a>
       </div>
      <div class="login__box login__box--transparent">
        <span class="login__text">Get the app.</span>
-       <div class="login__appstores">
+       <div  class="login__appstores">
          <img src="images/ios.png"     class="login__appstore" />
          <img src="images/android.png" class="login__appstore" />
        </div>
