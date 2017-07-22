@@ -1,1 +1,2 @@
-@import "reset.css" /* import 순서가 매우매우 중요함*/
+@import "reset.css"; /* import 순서가 매우매우 중요함*/
+@import "globals.css"; 
