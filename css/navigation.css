@@ -1,0 +1,46 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0 50px;
+    background: white;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.navigation__links {
+  font-size: 24px;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navigation .navigation__input{
+  background-color: #fafafa;
+   /**/
+  border: 0;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  /**/
+  padding: 5px 20px;
+  font-size :14px;
+}
+
+.navigation .navigation__input :focus{
+  outline: none;
+  border: 1px solid #b2b2b2;
+}
+
+/*
+.navigation .navigation__input form input :focus {
+  outline: none;
+  border: 1px solid #b2b2b2;
+}
+*/
+.navigation__icons{
+  font-size: 25px;
+}
+
+.navigation__links
+{
+  margin-left: 30px;
+}
