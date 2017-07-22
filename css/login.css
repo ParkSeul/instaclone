@@ -1,0 +1,104 @@
+.login{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;;
+  margin-top: 50px;
+}
+
+.login .login__column:first-child {
+  width: 50%;
+}
+
+.login .login__column{
+  width: 40%
+}
+
+.login .login__box{
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 30px 40px;
+}
+
+.login .login__box--transparent{
+  background-color: transparent;
+  border: none;
+  display: flex;   /*??? 모지모지*/
+  flex-direction: column; /*??? 모지모지*/
+  align-items: center;    /*??? 모지모지*/
+  margin-top: 30px;
+}
+
+.login .login__box--transparent .login__appstores {
+  margin-top: 10px;
+}
+
+.login .login__appstore {
+  height: 36px;
+}
+
+
+/*-------*/
+
+.login .login__box form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  /*border*/
+  border: 0;
+  border: 1px solid #efefef;
+  /*border*/
+  border-radius: 3px; /*테두리를 둥글게*/
+  font-size: 14px;
+}
+
+/*login__box를 클릭했을 때*/
+.login .login__box form input:focus {
+  outline: none;
+  border: 1px solid #b2b2b2;
+}
+
+.login .login__box form input[type="submit"] {
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #3897f0;
+  color: white;
+  border: 0;
+}
+
+.login .login__box .login__divider {
+  font-size: 12px;
+  font-weight: 600;
+  color:#999;
+  display: block;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+/*-----*/
+
+.login .login__box .login__fb-link{
+  display: block;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color:  #3b5998;
+}
+
+.login .login__box .login__link-login__link--small{
+  font-size: 12px;
+}
+
+.login .login__link--small {
+  font-size: 13px;
+  color: #385185;
+}
+
+.login .login__link--blue {
+  color: #3897f0;
+}
