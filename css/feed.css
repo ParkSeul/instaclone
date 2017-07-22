@@ -38,7 +38,7 @@
   margin-bottom: 10px;
 }
 
-.photo_comment_icon-hear{
+.photo_comment_icon-heart{
   padding-right: 100px;
 }
 
@@ -60,7 +60,7 @@
 }
 .photo .comment__author{
   font-weight: 600;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .photo__date{
@@ -82,6 +82,7 @@
  height: 45px;
  width : 520px;
  border: none;
+ padding-top: 20px;
 }
 
 .photo__add-comment textarea:focus{
