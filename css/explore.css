@@ -43,6 +43,10 @@
   margin-bottom: 5px;
 }
 
+/*verified icon 설정*/
+.users__name .users__username i {
+  color: #3897f0;
+}
 .users__full-name{
   display: block; /*이건 여기  저기 2곳에*/
   color : #999;
