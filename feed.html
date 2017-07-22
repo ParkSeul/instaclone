@@ -13,29 +13,71 @@
 <body>
 
   <nav class="navigation">
-    <a href="feed.html">
-      <img src="images/logo.png" calss="navigation__logo"</a>
-    <input type="text" placeholder="Search" class="navigation__input" />
+    <a href="feed.html"><img src="images/logo.png"
+         class="navigation__logo" /></a>
+    <input type="text"
+           placeholder="Search"
+           class="navigation__input">
     <div class="navigation__icons">
-      <a href="explore.html" class="navigation__links"><i class="fa fa-compass"></i></a>
-      <a href="#"            class="navigation__links"><i class="fa fa-heart-o"></i></a>
-      <a href="profile.html" class="navigation__links"><i class="fa fa-user-o" ></i></a>
+      <a href="explore.html"
+         class="navigation__links"><i class="fa fa-compass"></i></a>
+      <a href="#"
+         class="navigation__links"><i class="fa fa-heart-o"></i></a>
+      <a href="profile.html"
+         class="navigation__links"><i class="fa fa-user-o"></i></a>
     </div>
   </nav>
 
 <main class="feed">
   <div class="photo">
     <header class="photo__header">
-      <img src   ="images/avatar.jpg"
+      <img src   ="images/avatar_Nicolas.jpg"
            class ="photo__header__user-img" />
-      <span class ="photo__header__user-text">blackktaffooing</span>
+      <span class ="photo__header__user-text">NomadCoders</span>
     </header>
 
     <img src="images/feedPhoto.jpg"
          class="photo__image" />
 
     <div class="photo__info">
-      <div class="photo__actions">
+      <div class=  "photo__actions">
+        <i class="fa fa-heart-o  "
+           class="photo_comment_icon-heart"></i>
+        <i class="fa fa-comment-o"
+           class="photo_comment_icon-commnet"></i>
+      </div>
+      <span class="photo__likes">123 likes</span>
+      <ul class="photo__comments">
+        <li class="photo__comment"><span class="comment__author">user1</span> hellow1</li>
+        <li class="photo__comment"><span class="comment__author">user2</span> hellow2</li>
+        <li class="photo__comment"><span class="comment__author">user3</span> hellow3</li>
+        <li class="photo__comment"><span class="comment__author">user4</span> hellow4</li>
+        <li class="photo__comment"><span class="comment__author">user5</span> hellow5</li>
+      </ul>
+
+      <span class="photo__date">12 hours ago</span>
+      <!-- 댓글 입력창 -->
+      <div class="photo__add-comment">
+        <textarea placeholder="Add a comment..."
+                  class="photo__comment__comment-input"></textarea>
+        <i class="fa fa-ellipsis-h"></i>
+      </div>
+      <!-- 댓글 입력창 -->
+    </div>
+  </div>
+
+  <div class="photo">
+    <header class="photo__header">
+      <img src   ="images/avatar_psg.jpg"
+           class ="photo__header__user-img" />
+      <span class ="photo__header__user-text">yesHTML</span>
+    </header>
+
+    <img src="images/profile_feed1.png"
+         class="photo__image" />
+
+    <div class="photo__info">
+      <div class=  "photo__actions">
         <i class="fa fa-heart-o  "
            class="photo_comment_icon-heart"></i>
         <i class="fa fa-comment-o"
