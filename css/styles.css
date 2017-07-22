@@ -1,2 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+/*전체적용 글꼴 최상단에 위치해야!*/
 @import "reset.css"; /* import 순서가 매우매우 중요함*/
-@import "globals.css"; 
+@import "globals.css";
+@import "login.css";
+@import "footer.css";
