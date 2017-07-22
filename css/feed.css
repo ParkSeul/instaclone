@@ -15,22 +15,22 @@
  font-weight: 600;
 }
 
-.photo .photo__header__user-img{
+.photo__header__user-img{
   border-radius: 50%; /*원 모양으로*/
   height: 30px;
   width: 30px;
   margin: 12px;
 }
 
-.photo .photo__image{
+.photo__image{
   max-width: 100%;  /*이렇게!!!!*/
 }
 
-.photo .photo__info{
+.photo__info{
   padding-left: 20px;
   padding-bottom: 0px;
 }
-.photo .photo__actions{
+.photo__actions{
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -44,7 +44,7 @@
 .photo__actions i{
   cursor: pointer;
 }
-.photo .photo__likes{
+.photo__likes{
   font-weight: 600;
   display: block; /**/
   margin-bottom: 10px;
@@ -58,12 +58,12 @@
   color: #003569;
 }
 
-.photo .photo__comment{
+.photo__comment{
   margin: 7px;
   margin-left: 0;
 }
 
-.photo .comment__author{
+.comment__author{
   font-weight: 600;
   margin-right: 10px;
 }

@@ -1,0 +1,29 @@
+.photo--detail {
+  display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 900px;
+}
+
+.image-detail .photo-photo--detail {
+  display: flex;
+
+}
+
+.image-detail .photo-photo--detail .photo-image-col {
+  min-height: 50%;
+  width: 40%;
+  /*display: flex;*/
+  /*margin-right:20px;*/
+}
+
+.image-detail .photo-photo--detail .photo__info {
+  width: 40%;
+}
+
+
+.image-detail .photo__header{
+ display: flex;
+ align-items: center;
+ font-weight: 600;
+}
