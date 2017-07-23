@@ -1,8 +1,15 @@
 ﻿$(document).ready(function(){
   var $heart = $(".heart");
   $heart.click(function(){
-    $(this).toggleClass("heart-pumping");
-    // toggle 하면 아래 내용과 동일한 동작임
+    //$(this).toggleClass("fa-heart-o 8");
+
+    $(this).toggleClass("fa-heart-o heart-pumping fa-heart"); // 이렇게하면 아래3줄과 같아짐 / 순서는 remove->add 할 클래스 순서대로 하면된다.
+    //$(this).toggleClass("fa-heart-o");
+    //$(this).toggleClass("fa-heart");
+    //$(this).toggleClass("heart-pumping");
+    
+    //$(this).toggleClass("heart-pumping");
+    // toggle 하면 아래 내용과 동일한 동작임 (클래스 추가하고 , 다시 삭제하고)
     //if ($(this).hasClass("heart-pumping")){
     //  $(this).removeClass("heart-pumping");
     //  console.log("to no pump");
