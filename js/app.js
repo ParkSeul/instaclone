@@ -1,7 +1,19 @@
 ﻿$(document).ready(function(){
   var $heart = $(".heart");
   $heart.click(function(){
-    console.log("clicked");
+    $(this).toggleClass("heart-pumping");
+    // toggle 하면 아래 내용과 동일한 동작임
+    //if ($(this).hasClass("heart-pumping")){
+    //  $(this).removeClass("heart-pumping");
+    //  console.log("to no pump");
+    //}
+    //else{
+    //  $(this).addClass("heart-pumping");
+    //  console.log("to yes pump");
+    //}
+
+    //$(this).addClass("heart-pumping");
+    //console.log("clicked");
   });
 });
 
@@ -24,7 +36,8 @@ var soldier = {
   }
 }; 
 
-var age = prompt("How old are you?");
+//var age = prompt("How old are you?");
+
 if(age<18){
   console.log("gtf");
 }
