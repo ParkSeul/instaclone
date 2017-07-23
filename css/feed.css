@@ -135,3 +135,30 @@
 .photo__comment__comment-input{
   margin-top: 50px;
 }
+
+
+/*overlay*/
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.overlay i {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.overlay .overlay__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
