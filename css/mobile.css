@@ -1,0 +1,7 @@
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  body {
+    background-color: red;
+  } /* 여기에서 설정해야 mobile 에서 적용된다. 이 밖에 선언하면 전체 적용됨*/
+}
+/* { }  위치를 잘 보고, 코드를 심어야, 모바일에서만 작동하는 코드를 만들 수 있다.
+잘못하면 전체에 적용되니!!! 꼭  { }  를 살펴보자!!!!  */
