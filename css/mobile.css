@@ -5,6 +5,9 @@
    .navigation__input {
      display: none;
    }
+  .navigation__icons{
+
+  }
    .photo {
      margin-top: 0;
      background-color: transparent;
