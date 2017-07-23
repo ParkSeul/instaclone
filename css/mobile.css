@@ -1,7 +1,81 @@
 @media screen and (min-width: 375px) and (max-width: 667px) {
+  .navigation {
+     padding: 0 20px;
+   }
+   .navigation__input {
+     display: none;
+   }
+   .photo {
+     margin-top: 0;
+     background-color: transparent;
+     border: none;
+     margin-bottom: 7px;
+   }
+   .photo .photo__add-comment {
+     display: none;
+   }
+   .footer {
+     width: 85%;
+   }
+   .footer,
+   .footer__list {
+     flex-wrap: wrap;
+     justify-content: center;
+   }
+   .footer__list {
+     margin-bottom: 10px;
+   }
+   .footer__list-item {
+     margin-bottom: 10px;
+   }
+
+/*explore*/
+   .explore{
+     margin-top: 0;
+     background-color: white;
+     border :none;
+   }
+   .explore .users__user{
+     border-bottom:  none;
+     padding:  10px 15px;
+   }
+
+/*login*/
+  .login__column:first-child{
+    display: none;
+  }
+  .login .login__column{
+    width: 80%
+  }
+  .login__logo{
+    background-color: transparent;
+  }
+  .login .login__box{
+    background-color: transparent;
+    border :none;
+  }
+  .login .login__box form input {
+    background-color: transparent;
+  }
+
+  /*image-detail*/
+  .photo--detail {
+    display: block;
+  }
+  .photo--detail .photo__image {
+    width: 100%;
+  }
+
+  .photo--detail .photo__info {
+    width: 100%;
+    align-items: flex-start;
+  }
+  /*
   body {
     background-color: red;
-  } /* 여기에서 설정해야 mobile 에서 적용된다. 이 밖에 선언하면 전체 적용됨*/
+  }
+  */
+  /* 여기에서 설정해야 mobile 에서 적용된다. 이 밖에 선언하면 전체 적용됨*/
 }
 /* { }  위치를 잘 보고, 코드를 심어야, 모바일에서만 작동하는 코드를 만들 수 있다.
 잘못하면 전체에 적용되니!!! 꼭  { }  를 살펴보자!!!!  */
