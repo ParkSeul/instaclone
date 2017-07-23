@@ -1,4 +1,18 @@
-﻿var weapons =["gun", "cannon", "landmine", "bomb", "sword" ];
+﻿$(document).ready(function(){
+  var $heart = $(".heart");
+  $heart.click(function(){
+    console.log("clicked");
+  });
+});
+
+
+$(document).ready(function(){
+  console.log("i'm loaded");
+});
+
+
+
+var weapons =["gun", "cannon", "landmine", "bomb", "sword" ];
 
 var soldier = {
   name: "Nicolas",
@@ -41,3 +55,4 @@ function add(one, two){
 function subtraction(one, two){
   return one-two;
 }
+
