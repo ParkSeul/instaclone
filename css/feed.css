@@ -161,4 +161,17 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  flex-direction : column; /*이렇게 해야 세로로 정렬된다.*/
+}
+.overlay__menu a {
+  background: white;
+  width: 400px;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.overlay__menu a:hover {
+  background: #e2e2e2;
 }
